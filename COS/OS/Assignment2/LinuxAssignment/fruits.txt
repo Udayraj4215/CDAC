@@ -1,0 +1,9 @@
+echo "Hello, World!"
+ name="Productive"
+ touch file.txt
+ ls -a
+ rm file.txt
+ cp file1.txt file2.txt
+ mv file.txt /path/to/directory/
+ chmod 755 script.sh
+ grep "pattern" file.txt
