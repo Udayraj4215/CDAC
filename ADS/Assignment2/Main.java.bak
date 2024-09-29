@@ -1,0 +1,82 @@
+class Stack{
+	static final int MAX=10;
+	int top;
+	int[] arr = new int[MAX];
+	
+	Stack(){
+		top=-1;
+	}
+	
+	boolean isEmpty(){
+		if(top < 0){
+			System.out.println("Stack is empty");
+			return true;
+		}
+		return false;
+	}
+	
+	boolean push(int x){
+		if(top >= MAX-1){
+			System.out.println("Stack is overflow");
+			return false;
+		}
+		
+		arr[++top] = x;
+		System.out.println(x+" Added to Stack");
+		return true;
+	}
+	
+	int pop(){
+		if(top < 0){
+			System.out.println("Stack is already empty");
+			return 0;
+		}
+		
+		return arr[--top];
+	}
+	
+	int peek(){
+		if(top < 0){
+			return -1;
+		}
+		
+		return arr[top];
+	}
+	
+	void display(){
+		if(isEmpty()){
+			System.out.println("Empty Stack!");
+		}
+		
+		else{
+			System.out.println("Stack elements are:");
+			show(top);
+			System.out.println();
+		}
+	}
+	
+	void show(int index){
+		if(index < 0)
+			return;
+		System.out.println(arr[index]+"");
+		show(index-1); //recursice call
+	}
+	
+}
+class Main{
+	public static void main(String[] args){
+		Stack s1 = new Stack();
+		s1.isEmpty();
+		
+		s1.push(10);
+		s1.push(50);
+		s1.push(30);
+		
+		s1.display();
+		
+		s1.pop();
+		
+		s1.display();
+		System.out.println("Stack empty statement is "+isEmpty());
+	}
+}
