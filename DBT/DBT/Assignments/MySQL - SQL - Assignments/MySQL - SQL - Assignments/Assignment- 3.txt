@@ -1,0 +1,9 @@
+Assignment- 3
+
+1) does ANSI recognise the data type DATE?
+--> yes, ansi recigise the date datatype and it stores data in YYYY-MM-DD or YY-MM-DD
+
+2) which subdivision of sql is used to insert values in table?
+--> insert into <table_name> 
+    values(……..);
+    it is DML command.

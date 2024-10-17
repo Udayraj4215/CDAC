@@ -1,0 +1,11 @@
+1) Which field of the Customers table is the primary key?
+-> The primary key is a unique identification of records they unique to each row and record.
+   only one primary key is allowed in the table.
+
+2) What is the 4th column of the Customers table?
+-> the fourth column in customer table is rating
+
+3) What is another word for row? For column?
+-> In a relational database a row is called, a tuple and record and another name for column 
+   is a field and attribute.
+4) 

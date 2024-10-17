@@ -1,0 +1,13 @@
+Assignment-2
+
+1) which field of the customers table is the primary key
+--> Cnum is the primary key in customers table
+
+2) 2) What is the 4th column of the Customers table?
+-- fourth column in customer table is Rating column consisting ratings
+
+3) what is the another word for row? For column?
+--> another word for row is Tuple and for column is attributes
+
+4) why isn't possible to see first five rowes of a table?
+--> because in server HD data is not stores sequentially it's fragmented and ther memeory address are stores another table to access that roe
