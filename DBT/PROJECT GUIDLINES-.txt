@@ -1,0 +1,26 @@
+PROJECT GUIDLINES:-
+*  Those columns that are likely to have a large number of nulls,
+   its recommended that preferably they should be specified at the 
+   end of the table structure, to conserve on HD space.
+
+*  All the insert statement should be in this format:-
+   
+   insert into table_name(col1, col2, col3, ....)
+   values(val1, val2, val3,.....);
+
+*  its recommended that you should always use
+   double quotes, the select statement becomes more Readable
+
+*  Make multi user project
+*  Have at least one Indian language.
+* hence forth every table is create there there will 2 column
+* have 6 extra column in every table 
+* username, date and time when the row was inserted maintain the log
+* username, date and time when the row was updated maintain the log
+user(), sysdate(), now()
+
+* create index for all the select with where clause or all guidelines for indexes then create indexes for them
+* every table there should have some extra report
+* identitfy the unique column and make it primary key column 
+* multi user software
+* entire project based on views
