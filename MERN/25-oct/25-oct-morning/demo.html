@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <script>
+     
+      list = [{
+         roll: 111,
+         marks: 55,
+         phone: ["881111111", "99181818"],
+         name: "Sumit",
+         address: { houseNo: "A198", area: "Node js nagar", city: "Reactpur", pincode: 1100011 }
+
+      },
+      {
+         roll: 210,
+         marks: 94,
+         phone: ["9000111"],
+         name: "Pritam",
+         address: { houseNo: "A208", area: "Angular nagar", city: "Reactpur", pincode: 1100011 }
+
+      },
+      {
+         roll: 304,
+         marks: 83,
+         phone: ["80011344", "7777777", "90000000"],
+         name: "Suman",
+         address: { houseNo: "A901", area: "Java nagar", city: "Springpur", pincode: 1100011 }
+
+      }]
+
+      topper = list[0]
+
+      for(i=1;i<list.length;i++){
+         if(topper.marks<list[i].marks){
+            topper=list[i];
+         }
+      }
+
+      console.log("Topper Student: ", topper);
+
+
+      
+
+
+
+   </script>
+</body>
+
+</html>

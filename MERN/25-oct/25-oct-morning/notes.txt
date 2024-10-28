@@ -1,0 +1,183 @@
+variables
+array
+
+
+Store the data for any student:
+
+roll, name, marks, phone
+
+
+roll = 111
+name = "Sumit"
+marks = 55
+phone = "88111111"
+
+with above approach, there is no single container of data 
+
+array:
+
+s1 = [111,"Sumit",55,"88111111"]
+
+but values are not having labels, so it will become difficult when we want to process the data
+
+JSON: JavaScript Object Notation
+JSON stores the data into key and value pairs
+
+obj = {k:v,k:v,k:v,k:v,k:v}
+
+s1 = {roll:111,marks:55,phone:"881111111",name:"Sumit"}
+
+console.log(s1.roll);
+console.log(s1.name);
+console.log(s1.marks);
+console.log(s1.phone);
+
+Map
+
+Now a days JSON has become a standard to share data between client and server
+
+
+XML: store the data/represent the data 
+HTML: display
+
+<student>
+	<roll>111</roll>
+	<name>Mohan</name>
+</student>
+
+s1 = { roll: 111, marks: 55, phone: ["881111111","99181818"], name: "Sumit" }
+      console.log(s1);
+      console.log(s1.roll);
+      console.log(s1.name);
+      console.log(s1.marks);
+      console.log(s1.phone.length);
+
+s1 = { 
+	roll: 111, 
+	marks: 55, 
+	phone: ["881111111","99181818"], 
+	name: "Sumit", 
+	address: {houseNo:"A198",area:"Node js nagar",city:"Reactpur",pincode:1100011}
+
+}
+
+
+      list = [{
+         roll: 111,
+         marks: 55,
+         phone: ["881111111", "99181818"],
+         name: "Sumit",
+         address: { houseNo: "A198", area: "Node js nagar", city: "Reactpur", pincode: 1100011 }
+
+      },
+      {
+         roll: 210,
+         marks: 94,
+         phone: ["9000111"],
+         name: "Pritam",
+         address: { houseNo: "A208", area: "Angular nagar", city: "Reactpur", pincode: 1100011 }
+
+      },
+      {
+         roll: 304,
+         marks: 83,
+         phone: ["80011344", "7777777", "90000000"],
+         name: "Suman",
+         address: { houseNo: "A901", area: "Java nagar", city: "Springpur", pincode: 1100011 }
+
+      }]
+
+      for(i=0;i<list.length;i++){
+         console.log(list[i].roll , list[i].name);
+         for(j=0;j<list[i].phone.length;j++){
+            console.log(list[i].phone[j]);
+         }
+      }
+
+
+list = [{
+         roll: 111,
+         marks: 55,
+         phone: ["881111111", "99181818"],
+         name: "Sumit",
+         address: { houseNo: "A198", area: "Node js nagar", city: "Reactpur", pincode: 1100011 }
+
+      },
+      {
+         roll: 210,
+         marks: 94,
+         phone: ["9000111"],
+         name: "Pritam",
+         address: { houseNo: "A208", area: "Angular nagar", city: "Reactpur", pincode: 1100011 }
+
+      },
+      {
+         roll: 304,
+         marks: 83,
+         phone: ["80011344", "7777777", "90000000"],
+         name: "Suman",
+         address: { houseNo: "A901", area: "Java nagar", city: "Springpur", pincode: 1100011 }
+
+      }]
+
+      rollNo = 21;
+      isStudentFound = false;
+
+      for(i=0;i<list.length;i++){
+         if(list[i].roll == rollNo){
+            console.log(list[i]);
+            isStudentFound = true;
+         }
+        
+      }
+      if(!isStudentFound){
+         console.log("No student found with roll number: " + rollNo);
+      }
+
+
+
+
+
+
+
+      list = [{
+         roll: 111,
+         marks: 55,
+         phone: ["881111111", "99181818"],
+         name: "Sumit",
+         address: { houseNo: "A198", area: "Node js nagar", city: "Reactpur", pincode: 1100011 }
+
+      },
+      {
+         roll: 210,
+         marks: 94,
+         phone: ["9000111"],
+         name: "Pritam",
+         address: { houseNo: "A208", area: "Angular nagar", city: "Reactpur", pincode: 1100011 }
+
+      },
+      {
+         roll: 304,
+         marks: 83,
+         phone: ["80011344", "7777777", "90000000"],
+         name: "Suman",
+         address: { houseNo: "A901", area: "Java nagar", city: "Springpur", pincode: 1100011 }
+
+      }]
+
+      topper = list[0]
+
+      for(i=1;i<list.length;i++){
+         if(topper.marks<list[i].marks){
+            topper=list[i];
+         }
+      }
+
+      console.log("Topper Student: ", topper);
+
+
+
+
+
+
+

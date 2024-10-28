@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <select name="cars" id="dropdown">
+            <option value="samosa">samosa</option>
+            <option value="vada-pav">vada-pav</option>
+            <option value="gulabjaam">gulabjaam</option>
+            <option value="kajukatli">kajukatli</option>
+        </select>
+        <button onclick="optionremove()">delete</button>
+    </div>
+    <script>
+        function optionremove(){
+            let choice = document.getElementById("dropdown");
+            choice.remove(choice.selectedIndex);
+        }
+    </script>
+</body>
+</html>

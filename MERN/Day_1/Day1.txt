@@ -1,0 +1,68 @@
+Web applications:
+
+Desktop apps: the apps which are running directly on OS 
+	      First we need to install them
+Mobile apps
+
+web apps: Doesn't need to install
+	client: device/ browser 
+	server: server similar to pc/laptop
+		server has ram, CPU, Storage units
+IP address
+
+every application have frontend and backend
+
+frontend: UI
+	HTML, CSS, JS, Bootstrap, React
+	HTML: markup language is a used to display data
+	      used to create a layout od web app, HTML is used display content on the web page
+	CSS: cascading style sheet styling of web page, beautification
+	JS: is the client side scripting
+	form validation is the best example, arithmetic operations, 
+	
+   
+Bootstrap: Responsive, tailwindcss
+
+React: Library to develope frontend web app
+
+backend: operations + Database
+Operations: C, C++, Java, Python, PHP, .next, JS
+Database: MySQL, MongoDB, SQLServer, POSTGRESQL, Cassandra
+
+operations:
+JS: every browser has js engine
+   chrome has v8
+   spider monkey
+Node Js: is not a language not a library it is runtime environment for js
+Express Js: 
+
+
+
+
+
+
+
+client and server technical appects are same for all the clients ans server regarless of the tech used 
+
+Analogy for request:
+1. client send request to server:
+	To request we need url(end-point) of the server
+
+2. Method of the request: (Purpose of the request)
+	is it getting the data from server, saving data on the server, deleting data, updating data 
+	GET, POST, PUT, DELETE, PATCH
+
+Analogy for the response/Server:
+1. server will accept the request
+2. server will start the processing
+3. server will generate the reponse
+	
+	we have certain properties associated with the response:
+	1. Response Data -> Array, String, page
+	2. Response Status-> status code is always a numeric values and will have a message associated with it 
+	200,201,202,203,...299-> success event from server
+	300,302,303,304....399-> redirection
+	400,400,403,404.....499-> error due to client mistake
+	500,501,502,503.....599-> Errior due to server mistake
+	
+	 

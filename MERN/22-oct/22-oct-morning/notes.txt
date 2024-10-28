@@ -1,0 +1,100 @@
+Web Applications:
+
+Desktop Apps: The apps which are running directly on OS 
+	      First we need to install them
+
+Mobile Apps
+
+Web Apps: Doesn't need to be installed  
+
+Client-> Device/browser 
+Server-> machine similar to pc/laptop
+	Server has RAM, CPU, Storage units 
+
+
+Frontend: UI 
+HTML, CSS, JS, Bootstrap , React 
+
+HTML: Hyper Text Markup Language
+      HTML is used to create a layout of web app, HTML is used to display content on the web page
+
+CSS: Cascading Style Sheet: styling of web page, beautification
+
+JS: is for client side scripting 
+     Form validation, animations, arithmetic operations, popups 
+
+Every browser has a JS Engine (interpreter)
+v8 Engine
+Spider monkey
+
+Bootstrap: responsive 
+
+React: Is a library to develop frontend of web app
+
+
+      
+Backend: Operations + Database 
+
+Operations: JS, Node JS, Express JS
+Database: MySQL, MongoDB
+
+
+Node JS: is not a lang, not a library
+It is runtime environment for JS 
+
+MERN Stack
+MEAN Stack
+
+
+Client & Server technical aspects:
+
+Note: These technical aspects are same for all the clients and server regardless of the tech used
+
+Analogy for request:
+1. Client sends request to server:
+   TO send request we need url(end-point) of the server 
+
+
+2. Method of the request: (Purpose of the request)
+	is it for getting the data from server, saving data on the server, deleting data, updating data 
+   
+   GET, POST, PUT, DELETE, PATCH
+
+
+Analogy for the response/Server:
+
+1. Server will accept the request 
+2. It will start the processing 
+3. Server will generate the response
+
+   We have certain properties associated with the response:
+   1. Response Data-> Array, string, page 
+   2. Response Status -> Status code is always a numeric value and will have a message associated with it
+	200 201 202 203 ... 299 -> Success event from server 
+        300 301 302 ... 399 -> Redirection 
+	400 401 402 ... 499 -> Error due to client mistake 
+	500 501 502 ... 599 -> Error due to server mistake 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

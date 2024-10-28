@@ -1,0 +1,83 @@
+HTML: HTML is only for creating a layout of UI. It is used to display the data on Web page
+
+In HTML we have to use inbuild tags
+
+<abcd> { opening tag
+</abcd> } closing tag
+
+<p>
+	this is paragraph tag
+</p>
+
+
+h1 h2 h3 h4 h5 h6
+heading tags
+
+.c
+.java
+
+.html / .htm 
+
+HTML is a case-insensitive
+
+HTML is error free
+
+HTML 5 -> password field, semantics added, etc
+<!DOCTYPE html>  -> To let the browser know we are utilizing the latest version of HTML and browser will enable HTML's latest features in out web page
+
+we have two types of tags:
+	1. container tags: opening and closing tags <p> </p>
+	2. Empty tags: only opening tags <br> <img> 
+
+img< src="" >
+there are 2 ways to give link absolute and relative
+
+
+Table: rows and columns
+
+<table>
+	<tr>
+		<td>Id</td>
+		<td>name</td>
+		<td>Phone</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Udayraj</td>
+		<td>9082785505</td>
+	</tr>
+l</table>
+
+cellpadding: internal spaces for cell
+cellspacing: outside the cell
+
+
+<th></th> table heading
+
+
+semantics 
+<thead></thead>
+<tbody></tbody>
+
+used to differentiate the data like thead table head tbody for table for
+by using we canapply functionality and increases readability
+
+
+<div></div>-> for any random section any divison
+to provide semantics 
+and <section></section>
+are the same they are container or divison
+
+just section is semantic tag
+ex:- <nav></nav>, <footer></footer> to understand the logic and structure of website
+
+
+form tag is used for submit to the server
+not only display the fields
+if we not mentioning the any attribute 
+if we use method attribute and 
+1. action attribute = url on which request has to be submitted
+2. method: request method using which req will be sent on action url
+	   if no method has specified then by default it will consider GET request only
+<input></input> tag is used for taking the input then we have to mention the type also a submit
+form action attribute will be activated when user clicks submit button only user will click btn, internally sumit event is getting fired noe the submit event is 

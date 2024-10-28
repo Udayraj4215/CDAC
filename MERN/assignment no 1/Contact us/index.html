@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Rethink Sans", serif;
+            font-size: 14px;
+            background-color: burlywood;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+        }
+
+        .contact-box {
+            background: white;
+            display: flex;
+        }
+
+        .contact-left {
+            flex-basis: 60%;
+            padding: 40px 60px;
+        }
+
+        .contact-right {
+            flex-basis: 60%;
+            padding: 40px;
+            background: #ea7c7c;
+            color: white;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .container p {
+            margin-bottom: 40px;
+
+        }
+
+        input-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        input-row input-group {
+            flex-basis: 40%;
+            width: 100%;
+
+        }
+
+        input {
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        textarea {
+            width: 100%;
+            border: none;
+            border: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        button {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 40%;
+            background-color: #ffffff;
+            color: rgb(20, 15, 15);
+            border-radius: 30px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: #1c00b5;
+            /* border: 1px; */
+            color: #ffffff;
+            transition: background 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Connect with us
+        </h1>
+        <p> we would love to respond to your queries and help your peoblm as soon as possible</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Send your request</h3>
+                <form action="">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="">Name</label>
+                            <input type="text" placeholder="John Doe">
+                        </div>
+                        <div class="input-group">email</div>
+                        <input type="email" placeholder="JohnDoe@gmail.com">
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="">Contact no</label>
+                            <input type="number" placeholder="9082785505">
+                        </div>
+                        <div class="input-group">Subject</div>
+                        <input type="text" placeholder="Enter your query here...">
+                    </div>
+
+                    <label for="">Messaage</label>
+                    <textarea rows="5" placeholder="Enter full discription">Enter your message</textarea>
+                    <button>Submit</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach us</h3>
+                <img src="https://cdac.in/img/cdac-logo.png" alt="">
+                <p style="padding-top: 50px;">Raintree Marg, Near Bharati Vidyapeeth, Opp. Kharghar Railway Station,
+                    Sector 7, CBD Belapur
+                    Navi Mumbai - 400 614 - Maharashtra (India)
+                    Phone: +91-22-27565303
+                    Fax: +91-22-2756-0004</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

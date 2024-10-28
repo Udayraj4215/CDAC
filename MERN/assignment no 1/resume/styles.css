@@ -1,0 +1,68 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+hr {
+    width: 50%;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 30px;
+}
+
+p {
+    padding: 5px 0;
+    margin: 0;
+    text-align: center; /* Center-align text globally */
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center; /* Center-align section titles */
+}
+
+.education-entry, .experience-entry, .project-entry {
+    margin-bottom: 20px;
+    text-align: center; /* Center-align the content of each entry */
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 10px auto;
+    text-align: center; /* Center-align the bullet points */
+    display: inline-block; /* Ensure ul is centered */
+}
+
+.education-entry p, .experience-entry p, .project-entry p {
+    margin-bottom: 10px;
+    text-align: center; /* Ensure paragraph text is centered */
+}
+
+.year {
+    display: block;
+    text-align: center;
+}

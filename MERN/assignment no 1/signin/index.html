@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+
+        #container {
+            background: #e2d0a0;
+            color: rgb(0, 0, 0);
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            margin-bottom: 40px;
+            margin: 80px auto;
+            border: 1px solid black;
+           border-radius: 25px;
+           box-shadow: 5px 5px #3d382b;
+           
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+
+        }
+
+        body {
+            background-color:#ffffff;
+
+        }
+
+        #heading {
+            /* padding-top: 30px; */
+        }
+
+        input {
+            width: 70%;
+            margin-bottom: 25px;
+            padding: 20px;
+            border-radius: 50px;
+            border: none;
+        }
+
+        button {
+            width: 35%;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            background-color:  #10375C;
+            border: 0;
+            cursor: pointer;
+            border-radius: 50px;
+            color: white;
+        }
+
+        button:hover{
+            background: rgb(255, 139, 139);
+            transition: background 0.4s;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h2 id="heading">Login</h2>
+        <form>
+            <input type="text" placeholder="Enter Username">
+            <input type="password" placeholder="Enter a password">
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="#">Sign up</a> </p>
+    </div>
+</body>
+
+</html>

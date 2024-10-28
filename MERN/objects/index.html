@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        arr = {
+            name: "udayraj",
+            age: 23,
+            Rollno: 120,
+            marks:45,
+            mobileno: "9082785505"
+        }
+
+        list = [{
+            name: "udayraj",
+            age: 23,
+            Rollno: 130,
+            marks:43,
+            mobileno: "9082785505"
+        },
+        {
+            name: "mohan",
+            age: 25,
+            Rollno: 140,
+            marks:34,
+            mobileno: "32749837438"
+        },
+        {
+            name: "Siddhesh",
+            age: 24,
+            Rollno: 140,
+            marks:46,
+            mobileno: "32749837438"
+        },
+        {
+            name:"sohan",
+            age: 23,
+            Rollno: 135.,
+            marks: 24,
+            mobileno: "34543243334"
+        }
+        ]
+        // console.log(list)
+
+        //printing only names
+        // for (i = 0; i < list.length; i++) {
+        //     console.log(list[i].name);
+        // }
+
+        // roll = list.Rollno;
+        // for(i=0;i<list.length;i++){
+        //     if(list.Rollno > roll){
+        //         roll = list.Rollno;
+        //     }
+        // }
+
+        // console.log(list.Rollno);
+        
+    //     for(i=0;i<list.length;i++){
+    //      console.log(list[i].roll , list[i].name);
+    //      for(j=0;j<list[i].mobileno.length;j++){
+    //         console.log(list[i].mobileno[j]);
+    //      }
+    //   }
+
+        // topper = list[0].marks;
+        // for(i=0;i<list.length;i++){
+        //     if(topper < list[i].marks){
+        //         topper = list[i];
+        //     }
+        // }
+        // console.log(topper);
+
+        small = list[0].marks;
+
+        for(i=0; i<list.length;i++){
+            if(small > list[i].marks){
+                small.marks = list[i];
+            }
+            
+        }
+        console.log(small);
+
+    </script>
+</body>
+
+</html>
